@@ -1,15 +1,15 @@
-div#centered{
+div#container{
 	margin: 0px auto;
 	width: 960px;
 	font-family: roboto;
 }
-li.buttons{
+.buttons{
 	border: solid #246e91 1px;
 	background-color: #58c0e2;
 	text-decoration: none;
-	display: inline;
+	display: inline-block;
 	padding: 10px 20px;
-	margin: 0px 5px 0px 0px;
+	margin: 5px 5px 5px 5px;
 }
 .buttons:hover{
 	background-color: #00c0ff;
@@ -17,8 +17,9 @@ li.buttons{
 div#navigatie{
 	border: solid #3e9bb9 1px;
 	background-color: #7dbcd1;
+	padding: 10px;
 }
-h1#title{
+h1{
 	border-bottom: solid gray 1px;
 	font-size: 36px;
 	line-height: 36px;
@@ -28,7 +29,11 @@ p#regel{
 	line-height: 32px;
 	font-size: 24px;
 }
-h1.subtitle{
+h2{
+	line-height: 32px;
+	font-size: 32px;
+}
+h3{
 	line-height: 32px;
 	font-size: 32px;
 }
@@ -56,4 +61,7 @@ div#prepare{
 	margin: 40px 0px;
 	line-height: 26px;
 	font-size: 20px;
+}
+img{
+	display: block;
 }
