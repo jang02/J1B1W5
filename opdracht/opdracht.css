@@ -1,3 +1,7 @@
+body{
+	font-size: 20px;
+	line-height: 26px;
+}
 div#container{
 	margin: 0px auto;
 	width: 960px;
@@ -41,7 +45,6 @@ p#tip{
 	background-color: #def6ed;
 	padding: 25px;
 	border-radius: 4px;
-	display: inline-block;
 }
 li.nodig{
 	margin: 10px 0px;
