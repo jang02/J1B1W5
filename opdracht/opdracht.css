@@ -1,0 +1,59 @@
+div#centered{
+	margin: 0px auto;
+	width: 960px;
+	font-family: roboto;
+}
+li.buttons{
+	border: solid #246e91 1px;
+	background-color: #58c0e2;
+	text-decoration: none;
+	display: inline;
+	padding: 10px 20px;
+	margin: 0px 5px 0px 0px;
+}
+.buttons:hover{
+	background-color: #00c0ff;
+}
+div#navigatie{
+	border: solid #3e9bb9 1px;
+	background-color: #7dbcd1;
+}
+h1#title{
+	border-bottom: solid gray 1px;
+	font-size: 36px;
+	line-height: 36px;
+	padding: 0px 0px 25px 0px;
+}
+p#regel{
+	line-height: 32px;
+	font-size: 24px;
+}
+h1.subtitle{
+	line-height: 32px;
+	font-size: 32px;
+}
+p#tip{
+	background-color: #def6ed;
+	padding: 25px;
+	border-radius: 4px;
+	display: inline-block;
+}
+li.nodig{
+	margin: 10px 0px;
+}
+li.bereid{
+	margin: 20px 0px;
+}
+div#titel{
+	margin: 40px 0px;
+}
+div#needed{
+	margin: 40px 0px;
+	line-height: 26px;
+	font-size: 20px;
+}
+div#prepare{
+	margin: 40px 0px;
+	line-height: 26px;
+	font-size: 20px;
+}
